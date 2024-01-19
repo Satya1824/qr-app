@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: black !important;
+  color: white !important;
+}
+
+.f-p:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 1rem;
+}
+
+.padding {
+  padding: 1rem;
+  width: 10rem;
+  background-color: beige;
+}
+
+table {
+  border-spacing: 1em 0.5em;
+  padding: 0 2em 1em 0;
+  border: 1px solid white;
+  width: 90%;
+}
+
+td, tr, th {
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid white;
+  padding: 10px
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
